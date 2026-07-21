@@ -1,0 +1,55 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 65px;
+  background-color: rgb(19, 25, 32); 
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.136);
+  width: 100%;
+  /* min-width: 1000px; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 60px;
+  border-radius: 5px;
+}
+
+.logo-text {
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.logo-text span {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.337);
+}
+
+.criar{
+  /* background-color: aqua; */
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.criar h3{
+  font-size: 18px;
+  font-weight: 200;
+  /* background-color: aqua; */
+  margin-bottom: 8px;
+}
+
+.botao {
+  color: rgb(255, 255, 255);
+  background-color: rgba(204, 204, 204, 0.136);
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 80px;
+}
