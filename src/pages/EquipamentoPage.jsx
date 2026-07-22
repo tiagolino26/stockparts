@@ -1,10 +1,11 @@
-import "./EquipamentoPage.css"
+import HeaderEquipamentos from "../components/HeaderEquipamentos";
+import "./EquipamentoPage.css";
 
 function Equipamento() {
   return (
-    <div>
-      <h1>Equipamento</h1>      
-    </div>
+    <>
+      <HeaderEquipamentos />
+    </>
   );
 }
 

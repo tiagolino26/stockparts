@@ -1,0 +1,101 @@
+.cabecalho-equipamentos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.256);
+  padding: 5px 25px;
+  font-size: "Poppins";
+}
+
+.cabecalho-equipamentos-maquina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(240, 255, 255, 0.256); */
+  gap: 35px;
+  padding: 5px;
+}
+
+.nova-peca {
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #008cff;
+}
+
+.btn-equipamentos {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 120px;
+  padding: 8px;
+  font-size: 12px;
+  text-align: center;
+  gap: 5px;
+}
+
+
+.btn-equipamentos-icon {
+  width: 15px;
+}
+
+.description-equipamentos{
+  border-left: 1px solid #ccc;
+  padding: 1px 0 0 15px;
+  line-height: 18px;
+}
+
+.description-equipamentos h3{
+  font-size: 1em;
+}
+
+.description-equipamentos p{
+  font-size: 0.8em;
+}
+
+.titulo-decription{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 100px 25px 25px;
+  border-bottom: 2px solid #008cff;
+}
+
+.titulo-decription-head span{
+  color: #008cff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.titulo-decription-head h4{
+  color: #fff; 
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.titulo-decription-head p{
+  color: #d9d9d9d0; 
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.titulo-decription-body{
+  text-align: center;
+  line-height: 20px;
+}
+
+.titulo-decription-item span{
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.titulo-decription-item p{
+  color: #d9d9d9d0;
+  font-weight: 400;
+  font-size: 12px;
+}
