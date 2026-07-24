@@ -1,4 +1,4 @@
-import IconLess from "../assets/icon/less-than.png";
+import IconLessThan from "../assets/icon/less-than.png";
 import "./HeaderEquipamentos.css";
 
 function HeaderEquipamentos() {
@@ -10,7 +10,7 @@ function HeaderEquipamentos() {
             <button className="btn-equipamentos">
               {" "}
               <img
-                src={IconLess}
+                src={IconLessThan}
                 alt="icon"
                 className="btn-equipamentos-icon"
               />
