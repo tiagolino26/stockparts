@@ -2,13 +2,13 @@ import { Link, useNavigate } from "react-router-dom";
 import "./EquipamentoCard.css";
 
 function EquipamentoCard({ equipamento }) {
-  const navigate = useNavigate();
+  const navigateCard = useNavigate();
   return (
     <>
       <div
         className="card"
         onClick={() => {
-          navigate(equipamento.link);
+          navigateCard(equipamento.link);
         }}
       >
         <div className="card-head">

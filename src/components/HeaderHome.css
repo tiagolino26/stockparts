@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 15px 65px;
-  background-color: rgb(19, 25, 32); 
+  background-color: rgb(40, 65, 90);
   color: rgb(255, 255, 255);
   border-bottom: 1px solid rgba(204, 204, 204, 0.136);
   width: 100%;
@@ -32,24 +32,25 @@
   color: rgba(255, 255, 255, 0.337);
 }
 
-.criar{
+.criar {
   /* background-color: aqua; */
   text-align: center;
   padding: 2px 5px;
 }
 
-.criar h3{
+.criar h3 {
   font-size: 18px;
   font-weight: 200;
   /* background-color: aqua; */
   margin-bottom: 8px;
 }
 
-.botao {
+.btn-add {
   color: rgb(255, 255, 255);
   background-color: rgba(204, 204, 204, 0.136);
   padding: 4px;
   border-radius: 5px;
+  border: 1px solid #fff;
   font-size: 12px;
   width: 80px;
 }

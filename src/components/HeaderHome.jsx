@@ -1,6 +1,6 @@
-import "./Header.css";
+import "./HeaderHome.css";
 
-function Header() {
+function HeaderHome() {
   return (
     <header className="cabecalho">
       <div className="logo">
@@ -17,10 +17,10 @@ function Header() {
       </div>
       <div className="criar">
         <h3>Criar Equipamento</h3>
-        <button className="botao">Adicionar</button>
+        <button className="btn-add">Adicionar</button>
       </div>
     </header>
   );
 }
 
-export default Header;
+export default HeaderHome;

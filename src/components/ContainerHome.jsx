@@ -1,5 +1,5 @@
 import EquipamentoCard from "./EquipamentoCard";
-import "./Container.css";
+import "./ContainerHome.css";
 
 // lista mocada
 const equipamentos = [
@@ -26,7 +26,7 @@ const equipamentos = [
   {
     id: 3,
     imagem:
-      "https://img-5-pt-br-camargoindustrial.camargoindustrial.com.br/_fonte/foto.asp?e=IMA+Farmomac+F570&c=734-052001&t=2",
+      "https://carbonatech.com.br/wp-content/uploads/2025/02/WhatsApp-Image-2025-04-09-at-14.43.29.jpeg",
     titulo: "Recrave",
     descricao: "Equipamento de Recravação",
     quantidade: 1,
@@ -55,9 +55,9 @@ const equipamentos = [
   },
 ];
 
-function Container() {
+function ContainerHome() {
   return (
-    <div className="container">
+    <div className="ContainerHome">
       {equipamentos.map((equipamento) => (
         <EquipamentoCard equipamento={equipamento} />
       ))}
@@ -65,4 +65,4 @@ function Container() {
   );
 }
 
-export default Container;
+export default ContainerHome;

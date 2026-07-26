@@ -1,14 +1,20 @@
+import { Link, useNavigate } from "react-router-dom";
 import IconLessThan from "../assets/icon/less-than.png";
 import "./HeaderEquipamentos.css";
 
 function HeaderEquipamentos() {
+  const navigateHeaderEquipamentos = useNavigate();
   return (
     <>
       <header className="cabecalho-equipamentos">
         <div className="cabecalho-equipamentos-maquina">
           <div>
-            <button className="btn-equipamentos">
-              {" "}
+            <button
+              className="btn-equipamentos"
+              onClick={() => {
+                navigateHeaderEquipamentos("/");
+              }}
+            >
               <img
                 src={IconLessThan}
                 alt="icon"
@@ -30,13 +36,12 @@ function HeaderEquipamentos() {
           <h4>Liofilizador</h4>
           <p>Liofilizador de vacinas</p>
         </div>
-        <div className="titulo-decription-body">          
+        <div className="titulo-decription-body">
           <div className="titulo-decription-item">
             <span>6</span>
             <p>Total de Itens</p>
           </div>
         </div>
-
       </div>
     </>
   );

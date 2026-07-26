@@ -10,6 +10,7 @@
   border-top: 8px solid #38bdf8;
   position: relative;
   flex: 0 0 320px;
+  cursor: pointer;
 }
 
 .card:hover {

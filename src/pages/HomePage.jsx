@@ -1,11 +1,11 @@
-import Container from "../components/container";
-import Header from "../components/Header";
+import ContainerPage from "../components/ContainerHome";
+import HeaderHome from "../components/HeaderHome";
 import "./HomePage.css";
 
 function HomePage() {
   return (
     <>
-      <Header />
+      <HeaderHome />
       <div className="titulo">
         <h5>GESTÃO DE EQUIPAMENTOS</h5>
         <h1>Selecione um Equipamento</h1>
@@ -32,7 +32,7 @@ function HomePage() {
           <h2>0</h2>
         </div>
       </div>
-      <Container />
+      <ContainerPage />
     </>
   );
 }
