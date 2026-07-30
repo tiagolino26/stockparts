@@ -1,5 +1,5 @@
-import ContainerPage from "../components/ContainerHome";
 import HeaderHome from "../components/HeaderHome";
+import ContainerHome from "../components/ContainerHome";
 import "./HomePage.css";
 
 function HomePage() {
@@ -19,20 +19,8 @@ function HomePage() {
           <h5>Equipamentos</h5>
           <h2>5</h2>
         </div>
-        <div className="descricao-caixa">
-          <h5>Equipamentos</h5>
-          <h2>30</h2>
-        </div>
-        <div className="descricao-caixa">
-          <h5>Equipamentos</h5>
-          <h2>0</h2>
-        </div>
-        <div className="descricao-caixa">
-          <h5>Equipamentos</h5>
-          <h2>0</h2>
-        </div>
       </div>
-      <ContainerPage />
+      <ContainerHome />
     </>
   );
 }

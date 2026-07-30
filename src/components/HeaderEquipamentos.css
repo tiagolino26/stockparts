@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #008cff;
-  padding: 5px 25px;
+  padding: 12px 25px;
   font-size: "Poppins";
 }
 
@@ -16,12 +16,21 @@
   padding: 5px;
 }
 
-.nova-peca {
+.btn-nova-peca {
   color: white;
   padding: 8px 12px;
   border-radius: 5px;
   border: 1px solid #ccc;
   background-color: #008cff;
+}
+
+.btn-nova-peca:hover {
+  scale: calc(1.05);
+}
+
+.btn-nova-peca:active {
+  box-shadow: 0 2px 0 black;
+  transform: translateY(3px);
 }
 
 .btn-equipamentos {
@@ -38,26 +47,34 @@
   gap: 5px;
 }
 
+.btn-equipamentos:hover {
+  scale: calc(1.05);
+}
+
+.btn-equipamentos:active {
+  box-shadow: 0 2px 0 black;
+  transform: translateY(3px);
+}
 
 .btn-equipamentos-icon {
   width: 15px;
 }
 
-.description-equipamentos{
+.description-equipamentos {
   border-left: 1px solid #ccc;
   padding: 1px 0 0 15px;
   line-height: 18px;
 }
 
-.description-equipamentos h3{
+.description-equipamentos h3 {
   font-size: 1em;
 }
 
-.description-equipamentos p{
+.description-equipamentos p {
   font-size: 0.8em;
 }
 
-.titulo-decription{
+.titulo-decription {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,36 +82,36 @@
   border-bottom: 2px solid #008cff;
 }
 
-.titulo-decription-head span{
+.titulo-decription-head span {
   color: #008cff;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
 }
 
-.titulo-decription-head h4{
-  color: #fff; 
+.titulo-decription-head h4 {
+  color: #fff;
   font-weight: 600;
   font-size: 26px;
 }
 
-.titulo-decription-head p{
-  color: #d9d9d9d0; 
+.titulo-decription-head p {
+  color: #d9d9d9d0;
   font-weight: 400;
   font-size: 12px;
 }
 
-.titulo-decription-body{
+.titulo-decription-body {
   text-align: center;
   line-height: 20px;
 }
 
-.titulo-decription-item span{
+.titulo-decription-item span {
   font-weight: 600;
   font-size: 26px;
 }
 
-.titulo-decription-item p{
+.titulo-decription-item p {
   color: #d9d9d9d0;
   font-weight: 400;
   font-size: 12px;

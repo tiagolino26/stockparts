@@ -29,7 +29,7 @@
 
 .logo-text span {
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.337);
+  color: #fff;
 }
 
 .criar {
@@ -40,7 +40,7 @@
 
 .criar h3 {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
   /* background-color: aqua; */
   margin-bottom: 8px;
 }
@@ -53,4 +53,14 @@
   border: 1px solid #fff;
   font-size: 12px;
   width: 80px;
+  box-shadow: 3px 3px 0 black;
+}
+
+.btn-add:hover {
+  scale: calc(1.05);
+}
+
+.btn-add:active {
+  box-shadow: 0 2px 0 black;
+  transform: translateY(3px);
 }

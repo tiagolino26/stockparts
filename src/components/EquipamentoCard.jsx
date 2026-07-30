@@ -8,7 +8,7 @@ function EquipamentoCard({ equipamento }) {
       <div
         className="card"
         onClick={() => {
-          navigateCard(equipamento.link);
+          navigateCard(`/equipamento/${equipamento.id}`);
         }}
       >
         <div className="card-head">
@@ -22,7 +22,10 @@ function EquipamentoCard({ equipamento }) {
         </div>
         <div className="card-body">
           <p className="card-description">{equipamento.descricao}</p>
-          <div className="card-info"><h2 className="card-info-title">Quantidade:</h2> {equipamento.quantidade}</div>
+          <div className="card-info">
+            <h2 className="card-info-title">Quantidade:</h2>{" "}
+            {equipamento.quantidade}
+          </div>
         </div>
       </div>
     </>

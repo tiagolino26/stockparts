@@ -101,19 +101,6 @@ td {
   /* border-top:1px solid #27364d; */
 }
 
-.btn-editar-excluir {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  margin-top: 15px;
-}
-
-.btn-editar,
-.btn-excluir {
-  width: 10px;
-}
-
 /* rodapé */
 .container-equipamentos-footer {
   display: flex;

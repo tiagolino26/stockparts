@@ -1,8 +1,26 @@
 import { Link, useNavigate } from "react-router-dom";
 import IconLessThan from "../assets/icon/less-than.png";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import "./HeaderEquipamentos.css";
+import equipamentos from "../data/listaEquipamentos";
+
+// fetch buscando da lista mockada equipamentos, com backend virá da api / banco de dados.
+fetch("/api/equipamentos");
+
+//
 
 function HeaderEquipamentos() {
+  const [equipamento, setEquipamento] = useState(null);
+
+  const { id } = useParams();
+
+  console.log(id);
+
+  useEffect(() => {
+    setEquipamento(equipamentos.find((e) => e.id == id));
+  }, []);
+
   const navigateHeaderEquipamentos = useNavigate();
   return (
     <>
@@ -24,17 +42,17 @@ function HeaderEquipamentos() {
             </button>
           </div>
           <div className="description-equipamentos">
-            <h3>Liofilizador</h3>
-            <p>Controle de Peças</p>
+            <h3>{equipamento?.titulo}</h3>
+            <p>{equipamento?.descricao}</p>
           </div>
         </div>
-        <button className="nova-peca"> + Nova Peças</button>
+        <button className="btn-nova-peca"> + Nova Peças</button>
       </header>
       <div className="titulo-decription">
         <div className="titulo-decription-head">
           <span>estoque de peças</span>
-          <h4>Liofilizador</h4>
-          <p>Liofilizador de vacinas</p>
+          <h4>{equipamento?.titulo}</h4>
+          <p>{equipamento?.descricao}</p>
         </div>
         <div className="titulo-decription-body">
           <div className="titulo-decription-item">
